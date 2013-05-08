@@ -8,7 +8,7 @@ Fork me to provide your favorite color! Or just tell me the color name.
 
 You can simply add `Bundle 'lufeihaidao/vim-term-color'` to your `.vimrc` file if you choose [vundle](https://github.com/gmarik/vundle) to manage your vim plugins. Then put this code snippet to your `.vimrc` file:
 
-``` bash
+``` vimscript
 " use 256 colors when possible
 if &term =~? 'mlterm\|xterm\|screen-256'
 	let &t_Co = 256
